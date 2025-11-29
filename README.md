@@ -41,7 +41,7 @@ Key concepts demonstrated:
 - **Detailed evaluation** with per-class accuracy and prediction distribution  
 - **Optional interactive web app** to draw digits and get predictions in real-time  
 - **Simple, modular project structure** ready for extension  
-
+- **Mini-batch  Training** to improve efficiency for large data sets (MNIST)
 ---
 
 ## Installation

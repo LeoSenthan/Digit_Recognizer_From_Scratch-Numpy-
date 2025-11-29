@@ -1,21 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<title>Draw a Digit In The Center</title>
-<style>
-  canvas { border:1px solid #000; }
-  button { margin-top: 10px; }
-</style>
+    <title>Digit Recognizer</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        canvas { border:1px solid #000; margin-top: 20px; }
+        button { margin-top: 10px; font-size: 16px; padding: 5px 10px; }
+    </style>
 </head>
 <body>
-<h2>Draw a digit (0-9)</h2>
-<canvas id="canvas" width="280" height="280"></canvas>
-<br>
-<button id="clear">Clear</button>
-<button id="predict">Predict</button>
-<p id="result"></p>
+    <h1>Draw a digit</h1>
+    <canvas id="drawCanvas" width="280" height="280"></canvas>
+    <div id="prediction">Prediction: </div>
+    <button id="clearBtn">Clear</button>
+    <button id="predictBtn">Predict</button>
 
-<script src="{{ url_for('static', filename='script.js') }}"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 </html>
