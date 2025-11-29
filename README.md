@@ -10,7 +10,10 @@ This project demonstrates deep learning concepts, including feedforward networks
 1. [Project Overview](#project-overview)  
 2. [Features](#features)  
 3. [Installation](#installation)  
-4. [Results](#results)  
+4. [Results](#results)
+7. [Future Improvements](#future-improvements)  
+
+---
 
 ## Project Overview
 
@@ -19,13 +22,13 @@ It emphasizes understanding the underlying mechanics of neural networks rather t
 
 Key concepts demonstrated:
 
-- Feedforward fully connected layers
-- ReLU and Softmax activations
-- Cross-entropy loss
-- Adam optimizer
-- Manual train/test split and normalization
-- Model saving and loading
-- Evaluation with per-class accuracy
+- Feedforward fully connected layers  
+- ReLU and Softmax activations  
+- Cross-entropy loss  
+- Adam optimizer  
+- Manual train/test split and normalization  
+- Model saving and loading  
+- Evaluation with per-class accuracy  
 
 ---
 
@@ -36,6 +39,7 @@ Key concepts demonstrated:
 - **Adam optimizer** for parameter updates  
 - **Model saving/loading** via `.npz` files  
 - **Detailed evaluation** with per-class accuracy and prediction distribution  
+- **Optional interactive web app** to draw digits and get predictions in real-time  
 - **Simple, modular project structure** ready for extension  
 
 ---
@@ -47,3 +51,14 @@ Key concepts demonstrated:
 ```bash
 git clone https://github.com/yourusername/digit-classifier-from-scratch.git
 cd digit-classifier-from-scratch
+
+```
+2. Create A Virtual Environment
+pip install -r requirements.txt
+python interactive_testing.py
+
+
+## Results
+Training accuracy: ~95% 
+Test accuracy: ~92%
+Provides per-class accuracy and prediction distribution for detailed analysis
