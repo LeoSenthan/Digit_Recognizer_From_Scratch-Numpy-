@@ -1,10 +1,51 @@
-Neural Network Digit Classifier
-A from-scratch implementation of a neural network for handwritten digit recognition (0-9), built using only NumPy and Pandas (To read the csv file).
+# Digit Classifier from Scratch (NumPy)
 
-The network is trained on pixel data and demonstrates concepts including forward propagation, backpropagation, and optimization.
+A neural network implemented entirely from scratch using NumPy to classify handwritten digits from a CSV dataset.  
+This project demonstrates deep learning concepts, including feedforward networks, ReLU and Softmax activations, the Adam optimizer, and manual data preprocessing—all without using high-level ML libraries such as Sci-Kit.
 
-Features:
-Neural Network Implementation: Dense layers, ReLU activation, and Softmax output
-Adam Optimizer: Implementation of the Adam optimization algorithm
-Manual Train-Test Split: Data splitting without external libraries
-Comprehensive Evaluation: Detailed performance metrics and per-class analysis
+---
+
+## Table of Contents
+
+1. [Project Overview](#project-overview)  
+2. [Features](#features)  
+3. [Installation](#installation)  
+4. [Results](#results)  
+
+## Project Overview
+
+This project builds a simple multi-layer neural network capable of recognizing handwritten digits (0–9).  
+It emphasizes understanding the underlying mechanics of neural networks rather than relying on pre-built libraries like TensorFlow or PyTorch.
+
+Key concepts demonstrated:
+
+- Feedforward fully connected layers
+- ReLU and Softmax activations
+- Cross-entropy loss
+- Adam optimizer
+- Manual train/test split and normalization
+- Model saving and loading
+- Evaluation with per-class accuracy
+
+---
+
+## Features
+
+- **Neural network from scratch** using NumPy  
+- **Manual implementation** of layers, activations, forward and backward propagation  
+- **Adam optimizer** for parameter updates  
+- **Model saving/loading** via `.npz` files  
+- **Detailed evaluation** with per-class accuracy and prediction distribution  
+- **Simple, modular project structure** ready for extension  
+
+---
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/digit-classifier-from-scratch.git
+cd digit-classifier-from-scratch
+
+
