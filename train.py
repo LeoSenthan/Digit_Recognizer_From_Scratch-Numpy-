@@ -6,6 +6,7 @@ from models.network import NeuralNetwork
 from models.optimizers import Optimizer_Adam
 from utility_functions.save_and_load_model import save_model
 
+
 def create_digit_model():
     nn = NeuralNetwork()
     nn.add(Layer_Dense(784, 64))
@@ -68,8 +69,7 @@ def train_model(nn, X_train, y_train, epochs=500, learning_rate=0.01):
 
 
 if __name__ == "__main__":
-    csv_file_path = "data/digits.csv"
-    X_train, X_test, y_train, y_test = load_and_prepare_data(csv_file_path)
+    X_train, X_test, y_train, y_test = load_and_prepare_data(test_size=0.2)
     print(f"Training samples: {X_train.shape[0]}, Test samples: {X_test.shape[0]}")
 
     # Create and train model

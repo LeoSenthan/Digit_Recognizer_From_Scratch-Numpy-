@@ -1,6 +1,6 @@
 # Digit Classifier from Scratch (NumPy)
 
-A neural network implemented entirely from scratch using NumPy to classify handwritten digits from a CSV dataset.  
+A neural network implemented entirely from scratch using NumPy to classify the MNIST dataset.  
 This project demonstrates deep learning concepts, including feedforward networks, ReLU and Softmax activations, the Adam optimizer, and manual data preprocessing—all without using high-level ML libraries such as Sci-Kit.
 
 ---
@@ -14,7 +14,7 @@ This project demonstrates deep learning concepts, including feedforward networks
 
 ## Project Overview
 
-This project builds a simple multi-layer neural network capable of recognizing handwritten digits (0–9).  
+This project builds a simple multi-layer neural network capable of recognizing digits (0–9) from the MNIST dataset.  
 It emphasizes understanding the underlying mechanics of neural networks rather than relying on pre-built libraries like TensorFlow or PyTorch.
 
 Key concepts demonstrated:
@@ -47,5 +47,3 @@ Key concepts demonstrated:
 ```bash
 git clone https://github.com/yourusername/digit-classifier-from-scratch.git
 cd digit-classifier-from-scratch
-
-

@@ -24,7 +24,7 @@ def detailed_report(predictions, y_test, num_classes=10):
 
 if __name__ == "__main__":
     csv_file_path = "data/digits.csv"
-    _, X_test, _, y_test = load_and_prepare_data(csv_file_path)  
+    _, X_test, _, y_test = load_and_prepare_data()  
     
     # Load model
     nn = create_digit_model()
